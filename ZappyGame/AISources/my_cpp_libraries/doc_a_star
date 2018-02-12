@@ -1,0 +1,9 @@
+Il va chercher le chemin qui a le moins de poids par rapport à la sortie.
+
+   -  S'il y a des cases qu'il ne peut pas accéder, il les ignore, et fait l'alorithme sur les cases restantes.
+   -  Il prend la case la moins éloignée s'il a le choix entre deux cases.
+
+   -  S'il est bloqué, il doit revenir sur ses pas jusqu'à avoir une autre possibilité de départ.
+   -  Pour ça, il va transformer sur une copie de map les cases sur lesquels il est passé en des caractères spéciaux spécifiant son chemin.
+
+   Pour cela, il doit faire une copie de map.

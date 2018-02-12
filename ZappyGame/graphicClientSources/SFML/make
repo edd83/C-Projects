@@ -1,0 +1,1 @@
+g++ test3.cpp -I./include -L./lib -lsfml-system -lsfml-window -lsfml-graphics -lsfml-network -lsfml-audio -lGLEW -ljpeg
